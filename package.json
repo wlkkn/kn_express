@@ -1,0 +1,51 @@
+{
+  "name": "kn_express",
+  "description": "express base",
+  "version": "0.0.1",
+  "author": {
+    "name": "wlkkn",
+    "email": "yy122331@163.com"
+  },
+  "keywords": [
+    "express,base"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wlkkn/node_express.git"
+  },
+  "main": "app",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "async": "^0.9.0",
+    "body-parser": "^1.9.2",
+    "commander": "^2.5.0",
+    "connect-timeout": "^1.4.0",
+    "debug": "^2.1.0",
+    "express": "^4.10.2",
+    "jade": "^1.7.0",
+    "jtcluster": "0.0.8",
+    "kndev": "0.0.1",
+    "knfileimporter": "0.1.1",
+    "lodash": "^2.4.1",
+    "method-override": "^2.3.0",
+    "moment": "^2.8.4",
+    "morgan": "^1.5.0",
+    "on-headers": "^1.0.0",
+    "require-tree": "^0.3.3",
+    "toobusy": "^0.2.4"
+  },
+  "devDependencies": {
+    "buffer-crc32": "^0.2.3",
+    "del": "^0.1.3",
+    "gulp": "^3.8.10",
+    "gulp-base64": "^0.1.2",
+    "gulp-cssmin": "^0.1.6",
+    "gulp-stylus": "^1.3.4",
+    "gulp-copy": "0.0.2",
+    "gulp-jshint": "^1.9.0",
+    "gulp-uglify": "^1.0.1",
+    "nib": "^1.0.4",
+    "through": "^2.3.6"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "kn_express",
+  "version": "0.0.1",
+  "homepage": "https://github.com/wlkkn/node_express.git",
+  "authors": [
+    "wlkkn <yy122331@163.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src/statics/components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize.css": "3.0.1",
+    "debug": "visionmedia/debug#~1.0.4",
+    "angularjs": "1.3.0",
+    "angular-local-storage": "~0.0.7",
+    "script.js": "~2.5.7",
+    "jquery": "2.1.1",
+    "SyntaxHighlighter" : "3.0.83"
+  }
+}

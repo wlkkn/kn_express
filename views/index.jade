@@ -1,0 +1,8 @@
+extends ./layout
+block bodyContainer
+  .homePage(ng-controller='HomePageController')
+    p 测试页
+    input(type='text', ng-model='user.name', jt-focus)
+  
+  - importer.import('/js/home.js');
+  - importer.import('/css/home.css');
